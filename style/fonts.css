@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'bold';
+    src: url(../fonts/NotoSans-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: 'norm';
+    src: url(../fonts/NotoSans-Regular.ttf);
+}
