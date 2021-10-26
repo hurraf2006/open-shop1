@@ -140,10 +140,11 @@ margin-right: 80px;
 }
 
 .intro_title {
+    margin: auto;
     font-size: 48px;
     color: #313131;
     line-height: 70px;
-    width: 624px;
+    width: 550px;
     text-align: center;
     font-family: 'norm';
 }
