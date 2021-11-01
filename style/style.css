@@ -205,3 +205,155 @@ margin-right: 80px;
     background-color: #313131 !important;
     transform: scale(1.2);
 }
+
+
+
+
+.access_item {
+    margin-right: 30px;
+    position: relative;
+    z-index: -1;
+background-color: rgb(245, 245, 245);
+transition: 0.7s;
+height: 500px;
+  
+    
+}
+
+.forhover {
+    transition: 0.5s;
+}
+
+.forhover:hover {
+    box-shadow: -10px 0px 4px 0px #00000026;
+
+}
+
+
+.access_item::after {
+    content: '-57%';
+    color: white;
+    background-color:  #313131;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-family: 'norm';
+    font-size: 20px;
+    line-height: 70px;
+    top: 20px;
+    left: 20px;
+}
+
+
+.access_info {
+    position: absolute;
+    z-index: 1;
+ font-size: 24px;
+ font-family: 'norm';
+   left: 20px;
+   bottom: 15px;
+   line-height: 70px;
+   color: 
+   #313131;
+   font-weight: 300 !important;
+}
+
+
+
+.access_item2 {
+    position: relative;
+    height: 235px;
+    margin-bottom: 30px;
+}
+
+
+
+.access_item2::after {
+    content: '-30%';
+    color: white;
+    background-color:  #313131;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-family: 'norm';
+    font-size: 20px;
+    line-height: 70px;
+    top: 20px;
+    left: 20px;
+}
+
+
+.access_item4, .access_item5 {
+    height: 235px;
+   width: 309px !important;
+    background-color: rgb(245, 245, 245);
+    position: relative;
+}
+
+.access_item4 {
+    margin-right: 30px;
+    
+}
+
+
+.access_item4::after {
+    content: '-20%';
+    color: white;
+    background-color:  #313131;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-family: 'norm';
+    font-size: 20px;
+    line-height: 70px;
+    left: 20px;
+    bottom: 15px;
+}
+
+.access_info3 {
+    position: absolute;
+    z-index: 1;
+ font-size: 24px;
+ font-family: 'norm';
+   left: 20px;
+   top: 15px;
+   line-height: 70px;
+   color: 
+   #313131;
+   font-weight: 300 !important;
+}
+
+.access_item3 {
+    display: flex;
+}
+
+
+.access_item5::after {
+    content: '-10%';
+    color: white;
+    background-color:  #313131;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-family: 'norm';
+    font-size: 20px;
+    line-height: 70px;
+    left: 20px;
+    bottom: 15px;
+}

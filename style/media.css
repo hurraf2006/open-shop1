@@ -1,4 +1,14 @@
 @media (max-width: 1200px){
+    
+    .access_box {
+  
+        flex-wrap: wrap;
+     align-items: center;
+    
+    }
+
+   
+    
     .intro_title {
         margin: auto !important;
     }
